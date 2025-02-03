@@ -30,7 +30,7 @@ const Login = () => {
         localStorage.setItem('token', token);
 
         // Redirect to Category Page
-        navigate('/category');
+        navigate('/');
       }
 
       setSnackbarMessage(message || 'Login successful!');

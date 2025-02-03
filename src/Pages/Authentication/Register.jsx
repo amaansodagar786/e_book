@@ -129,7 +129,7 @@ const Register = () => {
             </Card>
             <Snackbar
                 open={openSnackbar}
-                autoHideDuration={3000}
+                autoHideDuration={2000}
                 onClose={() => setOpenSnackbar(false)}
                 anchorOrigin={{ vertical: "top", horizontal: "center" }}
             >

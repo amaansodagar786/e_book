@@ -19,20 +19,24 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar__logo">
-      <a href="/"  >
-        <span>E-Book App</span>
-      </a>
-      </div>
-      <div className="navbar__links">
-        <a href="/categories" className="navbar__link">
-          <FaBook className="navbar__icon" />
-          <span>Categories</span>
+        <a href="/">
+          <span>E-Book App</span>
         </a>
+      </div>
+
+      <div className="navbar__links">
         {isLoggedIn ? (
-          <button className="navbar__link navbar__logout" onClick={handleLogout}>
-            <FaSignOutAlt className="navbar__icon" />
-            <span>Logout</span>
-          </button>
+          <>
+            <a href="/categories" className="navbar__link">
+              <FaBook className="navbar__icon" />
+              <span>Categories</span>
+            </a>
+
+            <button className="navbar__link navbar__logout" onClick={handleLogout}>
+              <FaSignOutAlt className="navbar__icon" />
+              <span>Logout</span>
+            </button>
+          </>
         ) : (
           <>
             <a href="/login" className="navbar__link">
@@ -46,7 +50,7 @@ const Navbar = () => {
           </>
         )}
       </div>
-    </nav >
+    </nav>
   );
 };
 
