@@ -8,7 +8,7 @@ const Categories = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4000/categories")
+      .get("https://e-book-backend-sna2.onrender.com/categories")
       .then((response) => setCategories(response.data))
       .catch((error) => console.error("Error fetching categories:", error));
   }, []);

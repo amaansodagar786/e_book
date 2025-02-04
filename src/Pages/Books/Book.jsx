@@ -10,7 +10,7 @@ const Book = () => {
   useEffect(() => {
     // Fetch books for the selected category
     axios
-      .get(`http://localhost:4000/books/${category}`)
+      .get(`https://e-book-backend-sna2.onrender.com/books/${category}`)
       .then((response) => setBooks(response.data))
       .catch((error) => console.error("Error fetching books:", error));
   }, [category]);

@@ -11,7 +11,7 @@ const BookDetails = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:4000/book/${category}/${title}`)
+      .get(`https://e-book-backend-sna2.onrender.com/book/${category}/${title}`)
       .then((response) => {
         console.log(response.data); // Check if you're getting the book data here
         setBook(response.data);

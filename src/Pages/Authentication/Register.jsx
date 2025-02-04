@@ -35,7 +35,7 @@ const Register = () => {
     // Handle form submit
     const handleSubmit = async (values, { resetForm }) => {
         try {
-            const response = await axios.post("http://localhost:4000/register", values);
+            const response = await axios.post("https://e-book-backend-sna2.onrender.com/register", values);
             setSnackbarMessage(response.data.message || "Registration successful!");
             setSnackbarType("success");
             resetForm();
