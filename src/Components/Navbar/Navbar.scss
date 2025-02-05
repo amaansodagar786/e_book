@@ -13,16 +13,18 @@ $hover-color: rgba(255, 255, 255, 0.1); // Light hover effect
   background: linear-gradient(135deg, $primary-color, $secondary-color);
   color: $text-color;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky; // Make the navbar sticky
+  top: 0; // Stick to the top of the page
+  z-index: 1000; // Ensure it stays above other content
 
   &__logo {
     font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
 
-    a{
+    a {
       color: $text-color;
-      text-decoration: none;  
-
+      text-decoration: none;
     }
   }
 
