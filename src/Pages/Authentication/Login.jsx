@@ -31,6 +31,8 @@ const Login = () => {
 
         // Redirect to Category Page
         navigate('/');
+        window.location.reload(); // Reload page to update UI
+
       }
 
       setSnackbarMessage(message || 'Login successful!');

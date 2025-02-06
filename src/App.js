@@ -7,6 +7,7 @@ import Login from './Pages/Authentication/Login';
 import Categories from './Pages/Category/Categories';
 import Book from './Pages/Books/Book';
 import BookDetails from './Pages/Books/BookDetails';
+import ProtectedRoute  from './Components/Protected/ProtectedRoute';
 
 
 function App() {
@@ -17,9 +18,14 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/categories" element={<Categories />} />
-        <Route path="/categories/:category" element={<Book />} />
-        <Route path="book/:category/:title" element={<BookDetails />} />
+
+
+
+        <Route element={<ProtectedRoute />}>
+          <Route path="/categories" element={<Categories />} />
+          <Route path="/categories/:category" element={<Book />} />
+          <Route path="/book/:category/:title" element={<BookDetails />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );

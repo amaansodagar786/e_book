@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { FaUser, FaBook, FaSignInAlt, FaSignOutAlt } from 'react-icons/fa'; // Icons from react-icons
+import { Link, useNavigate } from 'react-router-dom';
 import './Navbar.scss';
 
 const Navbar = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const navigate = useNavigate();
+
 
   useEffect(() => {
     const token = localStorage.getItem('token'); // Check if token exists
@@ -13,7 +16,9 @@ const Navbar = () => {
   const handleLogout = () => {
     localStorage.removeItem('token'); // Remove token on logout
     setIsLoggedIn(false);
+    
     window.location.reload(); // Reload page to update UI
+    navigate('/login'); 
   };
 
   return (
