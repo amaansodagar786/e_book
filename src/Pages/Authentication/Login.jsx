@@ -31,6 +31,8 @@ const Login = () => {
         localStorage.setItem('userId', userId);
         localStorage.setItem('email', email);
 
+        console.log({ token, userId, email });
+
         // Redirect to Category Page
         navigate('/');
         window.location.reload(); // Reload page to update UI
