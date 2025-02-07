@@ -3,6 +3,8 @@ import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./BookDetails.scss";
 import { IoArrowBack } from "react-icons/io5"; // Import back icon
+import LikeButton from "../../Components/LikeComment/LikeButton";
+import CommentSection from "../../Components/LikeComment/CommentSection";
 
 const BookDetails = () => {
   const { category, title } = useParams(); // Get book details from URL
