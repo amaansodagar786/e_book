@@ -8,6 +8,8 @@ const BookDetails = () => {
   const { category, title } = useParams(); // Get book details from URL
   const navigate = useNavigate();
   const [book, setBook] = useState(null);
+  const userId = localStorage.getItem("userId"); // Get user ID from localStorage
+
 
   useEffect(() => {
     axios
@@ -22,7 +24,7 @@ const BookDetails = () => {
   if (!book) {
     return <div className="loading">Loading book details...</div>;
   }
-  
+
 
   return (
     <div className="book-details-container">
@@ -33,6 +35,11 @@ const BookDetails = () => {
         <h1 className="book-title">{book.title}</h1>
       </div>
       <div className="book-content">{book.content}</div>
+
+      <LikeButton category={category} title={title} userId={userId} />
+
+      {/* Comment Section */}
+      <CommentSection category={category} title={title} userId={userId} />
     </div>
   );
 };

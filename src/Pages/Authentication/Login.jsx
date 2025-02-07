@@ -23,11 +23,13 @@ const Login = () => {
   const handleSubmit = async (values) => {
     try {
       const response = await axios.post('https://e-book-backend-sna2.onrender.com/login', values);
-      const { message, token } = response.data;
+      const { message, token, userId, email } = response.data;
 
       if (token) {
         // Save the token in localStorage
         localStorage.setItem('token', token);
+        localStorage.setItem('userId', userId);
+        localStorage.setItem('email', email);
 
         // Redirect to Category Page
         navigate('/');
