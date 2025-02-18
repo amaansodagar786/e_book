@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+
+
 // Variables
 $primary-color: #6a11cb; // Purple
 $secondary-color: #2575fc; // Blue
@@ -16,6 +19,8 @@ $hover-shadow-color: rgba(0, 0, 0, 0.2); // Hover shadow color
 
   // Title
   h1 {
+    font-family: "Faculty Glyphic", serif;
+    font-style: normal;
     font-size: 2rem;
     font-weight: bold;
     color: $primary-color;
@@ -54,6 +59,8 @@ $hover-shadow-color: rgba(0, 0, 0, 0.2); // Hover shadow color
       transform: translateY(-5px);
       box-shadow: 0 8px 16px $hover-shadow-color;
     }
+
+    
 
     // Image
     img {

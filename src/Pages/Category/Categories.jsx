@@ -18,6 +18,7 @@ const Categories = () => {
             to={`/categories/${category.categoryName.toLowerCase()}`}
             key={index}
             className="category-card"
+            style={{ textDecoration: "none" }} 
           >
             <img src={category.imageURL} alt={category.categoryName} />
             <h2>{category.categoryName}</h2>
