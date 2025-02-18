@@ -9,6 +9,7 @@ import Categories from './Pages/Category/Categories';
 import Book from './Pages/Books/Book';
 import BookDetails from './Pages/Books/BookDetails';
 import ProtectedRoute  from './Components/Protected/ProtectedRoute';
+import Gototop  from './Pages/Gototop/Gototop';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
 
   return (
     <BrowserRouter>
+    <Gototop />
      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
