@@ -14,7 +14,8 @@ const Book = () => {
         {books.map((book, index) => (
           <div key={index} className="book-card">
             <img
-              src={`/Images/${category}/${book.image.split("/").pop()}`} // Use public/Images path
+             src={`/Images/${category.charAt(0).toUpperCase() + category.slice(1)}/${book.image.split("/").pop()}`}
+             // src={`/Images/${category}/${book.image.split("/").pop()}`} // Use public/Images path
               alt={book.title}
               className="book-image"
             />
