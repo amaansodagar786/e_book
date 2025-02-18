@@ -1,0 +1,346 @@
+{
+  "children": [
+    {
+      "title": "The Lion and the Mouse",
+      "content": "A timeless fable about kindness and reciprocity...",
+      "author": "Aesop",
+      "image": "Images/Children/book1.png",
+      "chapters": [
+        {
+          "title": "Chapter 1: The Mighty Lion",
+          "content": "In the heart of the African savanna, a powerful lion ruled his territory with majesty. His roar could be heard for miles, keeping all animals in respectful awe."
+        },
+        {
+          "title": "Chapter 2: The Curious Mouse",
+          "content": "A tiny mouse ventured too close to the sleeping lion, accidentally waking him. The lion's massive paw trapped the trembling creature, who pleaded for mercy."
+        },
+        {
+          "title": "Chapter 3: An Unexpected Mercy",
+          "content": "Amused by the mouse's bravery, the lion unexpectedly released his tiny captive. 'What could such a small creature ever do for me?' he laughed, unaware of future events."
+        },
+        {
+          "title": "Chapter 4: The Hunter's Trap",
+          "content": "Two moons later, the lion found himself entangled in a hunter's thick net. His mighty roars echoed helplessly through the jungle as the ropes held firm."
+        },
+        {
+          "title": "Chapter 5: The Mouse's Promise",
+          "content": "Hearing the familiar roar, the mouse raced to the scene. 'I may be small, but I will free you!' she declared, her sharp teeth already working on the ropes."
+        },
+        {
+          "title": "Chapter 6: Bonds of Friendship",
+          "content": "As the last rope snapped, the humbled lion learned true friendship knows no size. The unlikely pair developed a unique bond that puzzled other animals."
+        },
+        {
+          "title": "Chapter 7: Legacy of Kindness",
+          "content": "The story of their friendship spread across the savanna, teaching generations that compassion creates unexpected alliances and true strength lies in helping others."
+        }
+      ]
+    },
+    {
+      "title": "The Little Red Hen",
+      "content": "A lesson about initiative and personal responsibility...",
+      "author": "Anonymous",
+      "image": "Images/Children/book2.png",
+      "chapters": [
+        {
+          "title": "Chapter 1: The Mysterious Grain",
+          "content": "While scratching in the farmyard dirt, the little red hen discovered a single wheat grain. 'Who will help me plant this?' she asked her animal friends."
+        },
+        {
+          "title": "Chapter 2: Reluctant Neighbors",
+          "content": "The cat napped lazily, the dog chased his tail, and the pig wallowed in mud. 'Not I!' they chorused, unaware of the hen's growing determination."
+        },
+        {
+          "title": "Chapter 3: Solo Effort",
+          "content": "Undeterred, the hen cleared a plot, planted the grain, and watered it daily. Seasons changed as she tended her crop alone, her resolve hardening like the winter soil."
+        },
+        {
+          "title": "Chapter 4: The Golden Harvest",
+          "content": "When tall golden stalks swayed in the breeze, the hen again sought help for harvesting. The animals' refusal came with curious glances at the bountiful crop."
+        },
+        {
+          "title": "Chapter 5: Millstone Journey",
+          "content": "Carrying heavy wheat to the mill, the hen's perseverance was tested by rocky paths and stormy weather. Still, she sang work songs to keep her spirits high."
+        },
+        {
+          "title": "Chapter 6: Aroma of Success",
+          "content": "The scent of fresh-baked bread wafted through the farmyard. Suddenly eager, the animals gathered - but the hen reminded them of their earlier refusals."
+        },
+        {
+          "title": "Chapter 7: Lessons Baked Fresh",
+          "content": "As the hen shared bread with her chicks, the other animals learned an important truth: rewards come to those who contribute, not just those who appear at the finish line."
+        }
+      ]
+    },
+    {
+      "title": "Cinderella",
+      "content": "A magical tale of kindness triumphing over cruelty...",
+      "author": "Charles Perrault",
+      "image": "Images/Children/book3.png",
+      "chapters": [
+        {
+          "title": "Chapter 1: Cinders and Sorrow",
+          "content": "After her father's death, Cinderella became servant to her stepfamily. Each night, she wept quietly by the fireplace, her dreams buried in ashes."
+        },
+        {
+          "title": "Chapter 2: The Royal Decree",
+          "content": "News of the prince's ball electrified the household. As stepsisters squabbled over silks, Cinderella secretly mended her mother's old dress."
+        },
+        {
+          "title": "Chapter 3: Magic in Moonlight",
+          "content": "A shimmering figure appeared in a pumpkin patch. 'Bring me a mouse and a lizard,' the fairy godmother smiled, her wand already sparkling with potential."
+        },
+        {
+          "title": "Chapter 4: Midnight Chimes",
+          "content": "The prince couldn't take his eyes off the mysterious beauty. But as the clock struck twelve, Cinderella fled, leaving behind a single glass slipper."
+        },
+        {
+          "title": "Chapter 5: The Search Intensifies",
+          "content": "Royal heralds traveled door-to-door. Stepsisters contorted feet to fit the slipper while Cinderella watched silently from her attic window."
+        },
+        {
+          "title": "Chapter 6: Truth Revealed",
+          "content": "When the slipper slipped effortlessly onto Cinderella's foot, the stepmother's gasp echoed through the hall. The prince's eyes recognized his true love."
+        },
+        {
+          "title": "Chapter 7: Ever After Lessons",
+          "content": "In the castle, Cinderella practiced unexpected mercy. Her story became legend, teaching that true beauty shines through kindness, not royal decrees."
+        }
+      ]
+    }
+  ],
+  "fictional": [
+    {
+      "title": "The Great Gatsby",
+      "content": "A Jazz Age tragedy of love and aspiration...",
+      "author": "F. Scott Fitzgerald",
+      "image": "Images/Fictional/book1.png",
+      "chapters": [
+        {
+          "title": "Chapter 1: West Egg Arrival",
+          "content": "Nick Carraway's modest bungalow neighbored Gatsby's mansion. From his lawn, he watched shadowy figures dance behind stained-glass windows."
+        },
+        {
+          "title": "Chapter 2: Valley of Ashes",
+          "content": "The train ride past industrial wasteland revealed society's underbelly. Dr. T.J. Eckleburg's faded eyes watched over this moral desert."
+        },
+        {
+          "title": "Chapter 3: Gatsby's Revelry",
+          "content": "Champagne flowed like waterfalls at the legendary party. Guests gossiped about their host while dancing to forbidden jazz rhythms."
+        },
+        {
+          "title": "Chapter 4: Daisy's Voice",
+          "content": "'She's got money in her voice,' Gatsby murmured, watching Daisy laugh. The green light across the bay pulsed with his desperate hope."
+        },
+        {
+          "title": "Chapter 5: Shirts Aflutter",
+          "content": "In a nervous reunion, Gatsby showered Daisy with silk shirts. Their colors shimmered like the impossible dream he'd built over five years."
+        },
+        {
+          "title": "Chapter 6: Past Revisited",
+          "content": "Jay Gatz's transformation unfolded through war stories and bootlegging tales. The invented persona began cracking under Daisy's scrutiny."
+        },
+        {
+          "title": "Chapter 7: Ashes to Ashes",
+          "content": "The Plaza Hotel confrontation shattered illusions. As the car sped toward tragedy, the American Dream lay dying in the rearview mirror."
+        }
+      ]
+    },
+    {
+      "title": "1984",
+      "content": "A dystopian vision of totalitarian control...",
+      "author": "George Orwell",
+      "image": "Images/Fictional/book2.png",
+      "chapters": [
+        {
+          "title": "Chapter 1: Newspeak Reality",
+          "content": "Winston Smith hunched over his desk at Minitrue, altering historical records. The telescreen's unblinking eye noted his every twitch."
+        },
+        {
+          "title": "Chapter 2: Forbidden Pages",
+          "content": "In his secret alcove, Winston wrote diary entries. 'DOWN WITH BIG BROTHER' - words that could mean vaporization if discovered."
+        },
+        {
+          "title": "Chapter 3: Julia's Note",
+          "content": "The dark-haired girl slipped him a folded paper. 'I LOVE YOU' blazed in his mind, more dangerous than any political manifesto."
+        },
+        {
+          "title": "Chapter 4: Golden Country",
+          "content": "Their secret meetings in the countryside became a sanctuary. Amidst bluebells, they imagined a world without Thought Police."
+        },
+        {
+          "title": "Chapter 5: Brotherhood Contact",
+          "content": "O'Brien's invitation to resistance filled Winston with equal parts hope and dread. The chess piece moved, beginning a deadly game."
+        },
+        {
+          "title": "Chapter 6: Room 101",
+          "content": "Rats clattered in wire cages. Winston's deepest fear materialized as O'Brien calmly explained, 'Everyone breaks here. You will too.'"
+        },
+        {
+          "title": "Chapter 7: Freed Slave",
+          "content": "Walking past the Chestnut Tree Café, Winston felt nothing. The chess game ended; Big Brother's love filled his perfected void."
+        }
+      ]
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "content": "A profound exploration of racial injustice...",
+      "author": "Harper Lee",
+      "image": "Images/Fictional/book3.png",
+      "chapters": [
+        {
+          "title": "Chapter 1: Maycomb's Heat",
+          "content": "Scout Finch wiped sweat from her brow, watching Dill dare Jem to touch the Radley house. Summer stretched long and mysterious."
+        },
+        {
+          "title": "Chapter 2: First Day Fiasco",
+          "content": "Miss Caroline frowned at Scout's reading skills. 'Tell your father to stop teaching you,' she ordered, unknowing of Atticus's wisdom."
+        },
+        {
+          "title": "Chapter 3: Walter Cunningham",
+          "content": "Lunchtime revealed class divides. 'You never really understand someone until you climb into his skin,' Atticus advised his daughter."
+        },
+        {
+          "title": "Chapter 4: The Trial Begins",
+          "content": "In the packed courtroom, Tom Robinson's quiet dignity contrasted with Mayella's trembling accusations. Racial tensions simmered."
+        },
+        {
+          "title": "Chapter 5: Atticus's Stand",
+          "content": "'This case is as simple as black and white,' Atticus thundered. The all-white jury avoided his piercing gaze."
+        },
+        {
+          "title": "Chapter 6: Nighttime Courage",
+          "content": "Scout's costume rustled as she walked home. In the darkness, unseen hands rescued them from real danger."
+        },
+        {
+          "title": "Chapter 7: Lessons on the Porch",
+          "content": "As fireflies danced, Atticus explained Boo's gifts. Scout finally understood - most people are nice 'when you finally see them.'"
+        }
+      ]
+    }
+  ],
+  "horror": [
+    {
+      "title": "Dracula",
+      "content": "The original vampire thriller...",
+      "author": "Bram Stoker",
+      "image": "Images/Horror/book1.png",
+      "chapters": [
+        {
+          "title": "Chapter 1: Transylvanian Omen",
+          "content": "Jonathan Harker's carriage climbed winding roads. Peasants crossed themselves, whispering 'strigoi' as wolves howled in the distance."
+        },
+        {
+          "title": "Chapter 2: Castle Secrets",
+          "content": "The Count's shadow moved independently. Harker discovered ancient boxes of earth, realizing he was prisoner in a living tomb."
+        },
+        {
+          "title": "Chapter 3: Demeter's Voyage",
+          "content": "The ship drifted into Whitby harbor, crew missing, captain lashed to the wheel. A giant dog leaped ashore as storm clouds gathered."
+        },
+        {
+          "title": "Chapter 4: Lucy's Transformation",
+          "content": "Pale and sleepwalking, Lucy developed strange neck marks. Van Helsing's garlic flowers hinted at truths too terrible to voice."
+        },
+        {
+          "title": "Chapter 5: Blood Rituals",
+          "content": "The vampire hunters stalked Lucy's tomb. A stake through the heart, garlic flowers - the gruesome ritual saved her soul."
+        },
+        {
+          "title": "Chapter 6: Hunt Intensifies",
+          "content": "Using hypnosis on Mina, they tracked Dracula's retreat. The Count's boxes of earth were systematically destroyed across Europe."
+        },
+        {
+          "title": "Chapter 7: Final Ascent",
+          "content": "At the castle, sunlight blazed as knives flashed. Dracula crumbled to dust, his reign ended but his legend eternal."
+        }
+      ]
+    },
+    {
+      "title": "Frankenstein",
+      "content": "A cautionary tale of scientific ambition...",
+      "author": "Mary Shelley",
+      "image": "Images/Horror/book2.png",
+      "chapters": [
+        {
+          "title": "Chapter 1: Arctic Obsession",
+          "content": "Walton's ship creaked through ice fields. The emaciated scientist whispered, 'Do you share my madness?' as polar winds howled."
+        },
+        {
+          "title": "Chapter 2: Dark Enlightenment",
+          "content": "Victor Frankenstein's university experiments revealed life's secrets. Graveyard thefts fueled his monstrous creation."
+        },
+        {
+          "title": "Chapter 3: Birth Shock",
+          "content": "The creature's yellow eyes opened. Victor fled his laboratory, haunted by the stitched monstrosity's first shuddering breath."
+        },
+        {
+          "title": "Chapter 4: Murderous Path",
+          "content": "William's tiny body was found strangled. Justine's trial exposed society's rush to blame the vulnerable."
+        },
+        {
+          "title": "Chapter 5: Glacier Confrontation",
+          "content": "The creature spoke eloquently on the ice: 'Make me a mate!' Victor's refusal sealed their tragic bond."
+        },
+        {
+          "title": "Chapter 6: Elizabeth's Fate",
+          "content": "Wedding bells turned to death knells. The creature's warning - 'I will be with you on your wedding night' - proved horrifically true."
+        },
+        {
+          "title": "Chapter 7: Eternal Chase",
+          "content": "Northward they raced, creator and created. In the frozen wasteland, Victor's last breath became the creature's funeral pyre."
+        }
+      ]
+    },
+    {
+      "title": "The Shining",
+      "content": "A descent into supernatural madness...",
+      "author": "Stephen King",
+      "image": "Images/Horror/book3.png",
+      "chapters": [
+        {
+          "title": "Chapter 1: Overlook's Embrace",
+          "content": "The Torrances' car climbed the mountain. Jack thought, 'A fresh start,' unaware the hotel's pulse already synchronized with his."
+        },
+        {
+          "title": "Chapter 2: Winter's Grip",
+          "content": "Snow piled high, sealing them in. Danny's finger-warning from Tony grew urgent: 'REDRUM' in dripping letters."
+        },
+        {
+          "title": "Chapter 3: Room 217",
+          "content": "The bathroom door creaked open on its own. Danny's scream echoed through empty corridors as cold fingers touched his neck."
+        },
+        {
+          "title": "Chapter 4: Bar Illusions",
+          "content": "Lloyd the bartender materialized. 'Your money's no good here,' he smiled, pouring bourbon that tasted like damnation."
+        },
+        {
+          "title": "Chapter 5: Manuscript Madness",
+          "content": "Pages piled up - 'All work and no play...' Jack's typewriter became a confessional, the hotel's history rewriting his mind."
+        },
+        {
+          "title": "Chapter 6: Hedge Maze Terror",
+          "content": "Topiaries rustled with unnatural life. Danny's breath crystallized as he navigated the frozen labyrinth, his father's axe blows echoing."
+        },
+        {
+          "title": "Chapter 7: Frozen Legacy",
+          "content": "The photo caption chilled Wendy: 'Overlook Hotel Winter Ball, 1921.' There stood Jack, smiling among guests long dead."
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "children": {
+      "name": "Children",
+      "image": "Images/Categories/category1.png"
+    },
+    "fictional": {
+      "name": "Fictional",
+      "image": "Images/Categories/category2.png"
+    },
+    "horror": {
+      "name": "Horror",
+      "image": "Images/Categories/category3.png"
+    }
+  }
+}

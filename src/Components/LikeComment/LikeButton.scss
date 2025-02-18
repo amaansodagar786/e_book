@@ -1,0 +1,31 @@
+$primary-color: #6a11cb; // Purple
+$secondary-color: #2575fc; // Blue
+$text-color: #333; // Dark text
+$background-color: #f9f9f9; // Light background
+
+.like-section {
+    button {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      background-color: #f0f2f5;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+  
+      &.liked {
+        background-color: $primary-color;
+        color: white;
+      }
+  
+      &:hover {
+        transform: scale(1.05);
+      }
+  
+      .like-count {
+        font-weight: 500;
+      }
+    }
+  }

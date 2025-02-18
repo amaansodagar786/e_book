@@ -1,0 +1,305 @@
+// Variables
+$primary-color: #6a11cb; // Purple
+$secondary-color: #2575fc; // Blue
+$text-color: #333; // Dark text
+$background-color: #f9f9f9; // Light background
+
+// Container
+.book-details-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $background-color;
+  position: relative;
+  padding-bottom: 80px; // Space for fixed footer
+  width: 100%; // Set width to 70% for all content by default
+  margin: 0 auto; // Center content
+
+  // Header Row
+  .header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 9000;
+
+    .back-button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: $primary-color;
+      padding: 0.5rem;
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        color: darken($primary-color, 10%);
+      }
+    }
+
+    .book-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: $text-color;
+      margin: 0;
+      flex-grow: 1;
+      text-align: center;
+    }
+  }
+
+  // Chapters Sidebar (Like Mobile Navbar)
+  .chapters-sidebar {
+    position: fixed;
+    top: 70px;
+    right: 0px;
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease-in-out;
+    padding: 1rem;
+    z-index: 150;
+
+    &.open {
+      right: 0;
+    }
+
+    .chapter-button {
+      width: 100%;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-align: left;
+      transition: all 0.3s;
+      margin-bottom: 0.5rem;
+
+      &:hover {
+        background-color: lighten($primary-color, 30%);
+      }
+    }
+  }
+
+  // Book Content
+  .book-content {
+    flex-grow: 1;
+    padding: 2rem;
+    max-width: 100%; // Allow content to take full width of 70%
+    margin: 0 auto;
+    line-height: 1.6;
+
+    .chapter1 {
+      padding: 1.5rem;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .chapter {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  // Like & Comment Section (Fixed Footer)
+  .like-comment-section {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    // Reduced gap between buttons
+    button {
+      margin: 0 0.5rem; // Reduced margin
+      padding: 0.75rem 1.5rem;
+      background-color: $primary-color;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: darken($primary-color, 10%);
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  // Share Button
+  .share-button {
+    margin: 0 0.5rem; // Adjust margin
+    padding: 0.75rem 1.5rem;
+    background-color: #4caf50; // Green for share button
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: darken(#4caf50, 10%);
+      transform: scale(1.05);
+    }
+  }
+
+  // Like Button
+  .like-button {
+    padding: 0.75rem 1.5rem;
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+
+  // Comment Modal Overlay
+  .comment-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9900;
+  }
+
+  // Comment Modal
+  .comment-modal {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+
+    .close-modal {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: $text-color;
+    }
+  }
+
+  .comment-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      textarea {
+        margin-top: 30px;
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        min-height: 100px;
+        resize: vertical;
+        font-family: inherit;
+      }
+
+      button {
+        align-self: flex-start;
+        padding: 0.75rem 1.5rem;
+        background-color: $primary-color;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+    }
+  }
+}
+
+// Adjust layout for smaller screens
+// @media (max-width: 768px) {
+//   .like-comment-section {
+//     flex-direction: row;
+//     gap: 1rem;
+//     padding: 1rem; // Add more padding for mobile
+//   }
+
+//   .like-button,
+//   .comment-button,
+//   .share-button {
+//     width: 100%;
+//     padding: 1rem; // Adjust padding for mobile
+//     font-size: 1rem;
+//   }
+// }
+
+
+@media (max-width: 768px) {
+  .book-details-container {
+    .like-comment-section {
+      flex-direction: row;
+      gap: 1rem;
+      padding: 1rem; // Add more padding for mobile
+    }
+
+    .like-button,
+    .comment-button,
+    .share-button {
+      width: 100%;
+      padding: 1rem; // Adjust padding for mobile
+      font-size: 1rem;
+    }
+
+    .book-title {
+      font-size: 1.2rem; // Reduce font size for mobile
+      max-width: calc(100% - 3rem); // Adjust width to prevent overflow (3rem for the hamburger button + padding)
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; // Prevent the text from wrapping
+      text-align: center; // Center align text
+    }
+
+    .header-row {
+      padding: 1rem 1.5rem; // Adjust padding for mobile screens
+
+      .back-button {
+        padding: 0.5rem; // Ensure there's space for the back button
+      }
+
+      .toggle-chapters-button {
+        padding: 0.5rem; // Adjust padding for the toggle button
+      }
+    }
+  }
+}
+
+

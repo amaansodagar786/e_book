@@ -1,0 +1,75 @@
+.login-card {
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Apply custom font */
+  }
+  
+  .login-title {
+    font-size: 2rem; /* Slightly larger title */
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    font-family: 'Montserrat', sans-serif; /* Impactful font for the title */
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* More space between inputs */
+  }
+  
+  .login-button {
+    margin-top: 1.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.1rem; /* Slightly larger button text */
+    background-color: white; /* Default background color */
+    color: black; /* Default text color */
+    &:hover {
+      background-color: black; /* Hover background color */
+      color: white; /* Hover text color */
+    }
+  }
+  
+  .register-link {
+    padding-top: 15px;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+  
+    .register-link-text {
+      color: #130e97;
+        text-decoration: none;
+        font-weight: bold;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .login-card {
+      padding: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login-card {
+      padding: 1rem;
+    }
+  
+    .login-title {
+      font-size: 1.8rem;
+    }
+  
+    .login-button {
+      font-size: 1rem;
+    }
+  }
+  

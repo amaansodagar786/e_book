@@ -1,0 +1,75 @@
+.register-card {
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Apply custom font */
+}
+
+.register-title {
+    font-size: 2rem; /* Slightly larger title */
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    font-family: 'Montserrat', sans-serif; /* Impactful font for the title */
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem; /* More space between inputs */
+}
+
+.register-button {
+    margin-top: 1.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.1rem; /* Slightly larger button text */
+    font-weight: 600;
+    background-color: white; /* Default background color */
+    color: black; /* Default text color */
+    &:hover {
+        background-color: black; /* Hover background color */
+        color: white; /* Hover text color */
+    }
+}
+
+.login-link {
+    padding-top: 15px;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+
+    a {
+        color: #130e97;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .register-card {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .register-card {
+        padding: 1rem;
+    }
+
+    .register-title {
+        font-size: 1.8rem;
+    }
+
+    .register-button {
+        font-size: 1rem;
+    }
+}
