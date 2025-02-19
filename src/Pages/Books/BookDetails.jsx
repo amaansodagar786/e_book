@@ -242,6 +242,7 @@ const BookDetails = () => {
         message={snackbar.message}
         severity={snackbar.severity}
         anchorOrigin={{ vertical: "top", horizontal: "center" }}
+        sx={{ zIndex: 9999 }} // Add zIndex here
       />
 
     </div>
