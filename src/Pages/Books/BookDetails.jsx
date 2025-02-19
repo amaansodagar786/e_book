@@ -76,7 +76,7 @@ const BookDetails = () => {
     formData.append("file", bookFile);
 
     try {
-      const response = await fetch("http://localhost:4000/api/upload-book", {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/api/upload-book`, {
         method: "POST",
         body: formData,
       });
