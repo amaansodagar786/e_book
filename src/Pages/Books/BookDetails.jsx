@@ -4,6 +4,7 @@ import booksData from "../../data/book.json";
 import "./BookDetails.scss";
 import { IoArrowBack } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
+import { FiUpload } from "react-icons/fi";
 import { MdMenu } from "react-icons/md";
 import LikeButton from "../../Components/LikeComment/LikeButton";
 import CommentSection from "../../Components/LikeComment/CommentSection";
@@ -122,7 +123,8 @@ const BookDetails = () => {
             className="upload-button"
             onClick={() => setShowUploadModal(true)}
           >
-            Upload Book
+            <FiUpload />
+
           </button>
 
           <button

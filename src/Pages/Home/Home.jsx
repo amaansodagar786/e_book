@@ -1,12 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Home.scss";
 
-
-
-
 const Home = () => {
-
-  
   // State to store the values fetched from localStorage
   const [userData, setUserData] = useState({
     token: null,
@@ -26,74 +21,68 @@ const Home = () => {
       console.log({ token, userId, email });
     }
   }, []); // Empty dependency array to run once when the component mounts
-  return (
 
+  return (
     <div className="home-container">
       {/* Welcome Section */}
       <section className="welcome-section">
-        <h1>Welcome to Our E-Book App</h1>
-        <p>Your one-stop destination for reading amazing books online.</p>
+        <h1>Welcome to the World of E-Books</h1>
+        <p>Discover a new way to read and explore your favorite books anytime, anywhere.</p>
       </section>
 
-      {/* Project Name and Features */}
+      {/* Features Section */}
       <section className="features-section">
-        <h2>Project Name: E-Book Application</h2>
+        <h2>Why Choose E-Books?</h2>
         <div className="features-grid">
           <div className="feature-card">
-            <h3>Explore Categories</h3>
-            <p>Discover books in Children, Fictional, and Horror categories.</p>
+            <h3>Convenience</h3>
+            <p>Access thousands of books on your device without the need for physical storage.</p>
           </div>
           <div className="feature-card">
-            <h3>Read Online</h3>
-            <p>Read books directly in your browser without downloading.</p>
+            <h3>Portability</h3>
+            <p>Carry your entire library in your pocket and read on the go.</p>
           </div>
           <div className="feature-card">
-            <h3>User-Friendly</h3>
-            <p>Easy navigation and responsive design for all devices.</p>
+            <h3>Eco-Friendly</h3>
+            <p>Reduce paper usage and contribute to a greener planet.</p>
           </div>
         </div>
       </section>
 
-      {/* Project Details */}
-      <section className="project-details">
-        <h2>Project Details</h2>
-        <div className="details-grid">
-          <div className="detail-card">
-            <h3>Frontend</h3>
-            <ul>
-              <li>React.js</li>
-              <li>React Router</li>
-              <li>Axios for API calls</li>
-              <li>SCSS for styling</li>
-            </ul>
+      {/* Benefits Section */}
+      <section className="benefits-section">
+        <h2>Benefits of E-Books</h2>
+        <div className="benefits-grid">
+          <div className="benefit-card">
+            <h3>Instant Access</h3>
+            <p>Download or start reading your favorite books instantly after purchase.</p>
           </div>
-          <div className="detail-card">
-            <h3>Backend</h3>
-            <ul>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>MongoDB for database</li>
-              <li>JWT for authentication</li>
-            </ul>
+          <div className="benefit-card">
+            <h3>Customizable Reading</h3>
+            <p>Adjust font size, brightness, and background color for a personalized reading experience.</p>
+          </div>
+          <div className="benefit-card">
+            <h3>Cost-Effective</h3>
+            <p>E-books are often cheaper than their printed counterparts, saving you money.</p>
           </div>
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="team-section">
-        <h2>Our Team</h2>
-        <div className="team-grid">
-          <div className="team-card">
-            <h3>Student 1</h3>
-            <p>Enrollment: 123456</p>
+      {/* How It Works Section */}
+      <section className="how-it-works-section">
+        <h2>How It Works</h2>
+        <div className="steps-grid">
+          <div className="step-card">
+            <h3>Step 1: Sign Up</h3>
+            <p>Create an account to get started with your e-book journey.</p>
           </div>
-          <div className="team-card">
-            <h3>Student 2</h3>
-            <p>Enrollment: 654321</p>
+          <div className="step-card">
+            <h3>Step 2: Explore</h3>
+            <p>Browse through a wide range of genres and categories to find your next read.</p>
           </div>
-          <div className="team-card">
-            <h3>Student 3</h3>
-            <p>Enrollment: 987654</p>
+          <div className="step-card">
+            <h3>Step 3: Read</h3>
+            <p>Start reading your chosen book instantly on any device.</p>
           </div>
         </div>
       </section>
